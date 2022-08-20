@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "This Jenkins Tutorials is very helpful and I like it very much";
+        return "This Jenkins Tutorials is very helpful and I like it very much. ok";
     }
 
 }
